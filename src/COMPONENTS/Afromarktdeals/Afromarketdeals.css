@@ -1,0 +1,29 @@
+
+.Afromarktdeals{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.afromarkt_title_images{
+    align-content: space-between;
+}
+
+.prices {
+    display: flex;
+
+}
+
+.prices h4 {
+    margin-right: .5rem;
+
+}
+
+.discounted{
+    background-color:#DF2271;
+    color:#ffffff;
+    border-radius: 5px;
+    padding: .5rem;
+    border: none;
+}

@@ -1,0 +1,78 @@
+.footer{
+    justify-content: space-evenly;
+    padding: 5rem;
+}
+
+
+.majorfooters{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+   margin: 0 3rem;
+   color: #ffffff;
+}
+
+.afromarkt_footer ul li {
+   line-height: 2rem;
+}
+
+.afromarkt_footer h2{
+
+    margin-bottom: 1.2rem;
+}
+
+.becomeafro ul li {
+   line-height: 2rem;
+}
+
+.becomeafro h2 {
+
+    margin-bottom: 1.2rem;
+}
+
+.support li {
+   line-height: 2rem;
+}
+
+.support h2 {
+    margin-bottom: 1.2rem;
+}
+
+
+.socialmedia{
+    display: flex;
+    align-items: center;
+}
+
+.payonline{
+    display: flex;
+    align-content: center;
+    margin-left: 6rem;
+    
+}
+.mastercard{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.mastercard h4{
+    padding-left: 1rem;
+}
+
+.paystack h4{
+    color: #ffffff;
+   padding-left: 1rem; 
+}
+
+.paystack{
+   display: flex;
+  align-items: center;
+}
+
+.paypal,
+.paystack,
+.visa {
+    padding: 3rem;
+}

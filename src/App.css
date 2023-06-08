@@ -1,0 +1,142 @@
+
+/* Variables */
+
+:root{
+  --primary-blue:#1D71B8;
+  --Afroblue100:#D2E3F1;
+  --Afroblue200:#B4D0E7;
+  --Afroblue300:#8EB8DC;
+  --Afroblue400:#68A0D0;
+  --Afroblue500:#4389C4;
+  --Afroblue600:#1D71B8;
+  --Afroblue700:#185E99;
+  --Afroblue800:#134B7B;
+  --Afroblue900:#0F395C;
+  --Afroblue1000:#0F395C;
+  --Afroblue1100:#134B7B;
+
+  --primary-green: #3AAA35;
+  --secondary-yellow:#FFB805;
+  --secondary-grey: #1B1B1B;
+}
+
+/* resets */
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style-type: none;
+}
+
+/*---------------------- Style Guides---------------------------------------------*/
+
+.singlepage{
+  display: grid;
+
+}
+
+
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  background-color: var(--Afroblue600);
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left: 1rem;
+}
+
+.menu a{
+  padding: 10px;
+  color: white;
+}
+
+.Navmenu {
+  align-self: center;
+  /* margin-bottom: 1rem; */
+}
+
+.navbarmenu {
+  display: flex;
+  align-items: center;
+}
+
+.market-deals {
+  margin-right: 5rem;
+  color: white;
+}
+
+/* HOME */
+
+
+.Home{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--primary-blue) ; 
+}
+
+
+.shoppers{
+  padding: 40px 0px;
+}
+
+.Shop{
+  align-content: space-between;
+}
+
+.Shop .shop_ease  h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.Shop .shop_ease .ease {
+  color: var(--secondary-yellow);
+}
+
+.see_products{
+  padding: .7rem;
+  margin-top: 3rem;
+  border-radius: 50px;
+  border: none;
+  background-color: #3AAA35;
+  color: white;
+}
+
+/* TITLE BANNERS */
+
+.title_banners{
+  background-color: var(--Afroblue600);
+  color: #ffffff;
+  /* align-items: center;
+  justify-content: space-between; */
+  padding: .5rem;
+  font-size: 2rem;
+  padding-left: 3rem;
+  border-radius: 5px;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: auto;
+    /* margin: 4rem 3rem; */
+    justify-content: center;
+    background-color: var(--primary-blue) ; 
+}
+
+@media only screen and (max-width: 767px) {
+  
+}
